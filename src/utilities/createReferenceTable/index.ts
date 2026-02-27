@@ -1,6 +1,4 @@
-import { setPrimaryKey } from "../setPrimaryKey"
-import { setUniqueColumn } from "../setUniqueColumn"
-import { createSchemaConstraints } from "../createSchemaConstraints"
+import { setPrimaryKey, setUniqueColumn, createSchemaConstraints } from ".."
 
 export const createReferenceTable = async (queryInterface: any, Sequelize: any, tableName: string, tablePrimaryKey: string, tableReferenceKey: string) => {
   await queryInterface.createTable(tableName, {

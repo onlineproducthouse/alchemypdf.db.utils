@@ -1,9 +1,9 @@
 import {
   mapToAuditInsertColumnString,
   mapToAuditSchema,
-  mapToAuditSelectRowString
-} from "../../utilities"
-import { createSchemaConstraints } from "../createSchemaConstraints"
+  mapToAuditSelectRowString,
+  createSchemaConstraints
+} from ".."
 
 export const createAuditTable = async (queryInterface: any, Sequelize: any, tableName: string, schema: any) => {
   // Audit table

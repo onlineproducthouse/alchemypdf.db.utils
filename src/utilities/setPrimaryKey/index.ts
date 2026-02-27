@@ -1,4 +1,4 @@
-import { setUniqueColumn } from "../setUniqueColumn"
+import { setUniqueColumn } from ".."
 
 export const setPrimaryKey = async (queryInterface: any, tableName: string, tablePrimaryKey: string) => {
   await queryInterface.addConstraint(tableName, {
