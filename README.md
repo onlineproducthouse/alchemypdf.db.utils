@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm i -S https://github.com/onlineproducthouse/oph.sqlize.utilities.git
+npm i -S https://github.com/onlineproducthouse/alchemypdf.db.utils.git
 ```
 
 ## Usage
