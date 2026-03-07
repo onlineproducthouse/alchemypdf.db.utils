@@ -1,7 +1,7 @@
 {
   "name": "alchemypdf.db.utils",
   "version": "0.0.0",
-  "description": "Online Product House Sequelize Helpers",
+  "description": "AlcheMyPDF Database Utilities",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "https://github.com/onlineproducthouse/alchemypdf.db.utils.git",
